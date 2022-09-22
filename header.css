@@ -1,0 +1,48 @@
+.navi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(rgb(129, 197, 233), rgb(27, 184, 247));
+    padding: 0px 15px;
+}
+
+.navi h1{
+    color: #fff;
+    font-size: xx-large;
+    font-style: italic;
+}
+
+.navi ul li{
+    list-style: none;
+}
+
+.navi > ul > li > ul{
+    margin: 0;
+    padding: 0;
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.navi > ul > li:hover > ul {
+    display:block;
+}
+
+.navi > ul > li:focus > ul {
+    display:block;
+}
+
+.navi > ul > li > ul > li{
+    padding: 10px 15px;
+}
+
+.navi > ul > li > ul > li:hover{
+    background-color: rgb(232, 249, 255);
+    border-radius: 5px;
+}
+
+.navi ul li a{
+    text-decoration: none;
+    color: black;
+}

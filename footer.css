@@ -1,0 +1,10 @@
+footer{
+    padding: 1px;
+    color: #fff;
+    background-image: linear-gradient(rgb(32, 32, 32), black);
+    text-align: center;
+}
+
+footer span{
+    color: rgb(66, 176, 219);
+}
